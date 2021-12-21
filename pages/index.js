@@ -57,7 +57,7 @@ export default function Home() {
             href=""
             className={styles.card}
           >
-            <h2>contact</h2>
+            <h2>Contact Roonicorn</h2>
           </a>
         </div>
 

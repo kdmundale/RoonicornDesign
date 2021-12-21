@@ -3,6 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
+
+  let quote ="Named after his daughter Marissa's favorite animal, the unicorn, and inspired by her strength through her cancer journey, Roonicorn Designs was started by Adam Smerick after her diagnosis."
   return (
     <div className={styles.container}>
       <Head>
@@ -36,7 +38,7 @@ export default function Home() {
 
         <h3>Roonicorn</h3>
 
-        <p>Named after his daughter Marissa's favorite animal, the unicorn, and inspired by her strength through her cancer journey, Roonicorn Designs was started by Adam Smerick after her diagnosis.</p>
+        <p>{quote}</p>
         </section>
 
         <div className={styles.grid}>

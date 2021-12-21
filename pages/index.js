@@ -36,7 +36,7 @@ export default function Home() {
             href="https://github.com/vercel/next.js/tree/master/examples"
             className={styles.card}
           >
-            <h2>card 3;</h2>
+            <h2>card 3</h2>
             <p>..</p>
           </a>
 

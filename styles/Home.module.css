@@ -73,7 +73,7 @@
 }
 
 #ig_icon {
-  background-image: url('../public/images/icons/insta.png');
+  background-image: url("../public/images/icons/insta.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

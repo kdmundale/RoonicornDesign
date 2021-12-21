@@ -16,7 +16,7 @@ export default function Home() {
           Roonicorn<span className={styles.title2}>Designs</span>
         </h1>
         <p className={styles.description}>
-          Custom Handmade Woodcrafts and Furniture
+          Custom Woodcrafts and Furniture
         </p>
         <a className={styles.block} target="blank" href="https://www.instagram.com/rooni_corn_designs/">
         <span id={styles.ig_icon}></span>
@@ -38,21 +38,21 @@ export default function Home() {
 
         <p>Named after his daughter Marissa's favorite animal, the unicorn, and inspired by her strength through her cancer journey, Roonicorn Designs was started by Adam Smerick after her diagnosis.</p>
         </section>
-        
+
         <div className={styles.grid}>
           <a href="" className={styles.card}>
             <h2>About Marissa</h2>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href=""
             className={styles.card}
           >
             <h2>Project Images</h2>
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href=""
             className={styles.card}
           >
             <h2>contact</h2>
@@ -62,7 +62,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-
+      <p>page built and maintained by <a target="blank" href="https://kdmundale.com">kdmundale.com</a> Copywrite 2021</p>
       </footer>
     </div>
   )

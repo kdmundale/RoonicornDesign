@@ -18,17 +18,14 @@
 .footer {
   display: flex;
   flex: 1;
+  color: darkgrey;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
 }
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
+.footer a:hover{
+  color: black;
 }
 
 .title a {
@@ -84,12 +81,14 @@
 }
 
 .about {
+  margin: 2rem;
+  text-align: center;
   width: 80%;
 }
 
 .grid {
   display: flex;
-  margin:4rem;
+  margin:1rem;
   padding: 1.5rem;
   align-items: center;
   justify-content: center;
@@ -136,9 +135,24 @@
   margin-left: 0.5rem;
 }
 
+@media (max-width: 400px) {
+
+  .title, .title2 {
+    font-size: 3rem;
+  }
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  .title, .title2 {
+    font-size: 4rem;
   }
 }

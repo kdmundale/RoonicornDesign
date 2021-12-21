@@ -44,16 +44,16 @@
 
 .title {
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  line-height: 1.1;
+  font-size: 6rem;
   font-family:"Bad Script";
   color: #123C69;
 }
 
 .title2 {
   margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
+  line-height: 1.1;
+  font-size: 6rem;
   font-family:"Raleway";
   color: #AC3B61;
 }
@@ -64,38 +64,53 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+.block {
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 2rem;
+}
+
+#ig_icon {
+  background-image: url('../public/images/icons/insta.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 8vh;
+}
+
+.about {
+  width: 80%;
 }
 
 .grid {
   display: flex;
+  margin:4rem;
+  padding: 1.5rem;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
-  background-color: #BAB2B5;
+  width:60vw;
+  border-radius: 5px;
 }
 
 .card {
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
-  background-color: #EDC7b7;
+  color: #123C69;
+  font-weight: 900;
+  background-color: #BAB2B5;
   text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
+  border: 1px solid #EEE2DC;
+  box-shadow: 0px 0px 6px #EEE2DC;
+  border-radius: 5px;
+  width:70%;
+  text-align: center;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
 }
@@ -103,8 +118,6 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
 }
 
 .card h2 {

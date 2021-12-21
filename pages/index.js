@@ -24,7 +24,7 @@ export default function Home() {
         </a>
 
         <Image
-        src="/images/watchbox3.jpg"
+        src="/public/images/watchbox3.jpg"
         layout='intrinsic'
         height={450}
         width={600}

@@ -14,9 +14,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.titleHolder}>
         <h1 className={styles.title}>
           Roonicorn<span className={styles.title2}>Designs</span>
         </h1>
+        </div>
         <p className={styles.description}>
           Custom Woodcrafts and Furniture
         </p>
@@ -50,7 +52,7 @@ export default function Home() {
             href=""
             className={styles.card}
           >
-            <h2>Project Images</h2>
+            <h2>Project Photos</h2>
           </a>
 
           <a

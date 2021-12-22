@@ -1,16 +1,23 @@
 import Link from 'next/link'
+import PageTitle from '/components/title'
+import StarField from '/components/star_field'
 
 import styles from '../styles/Home.module.css'
 
 export default function Gallery(){
 
+  let t1 = 'Project'
+  let t2 = 'Photos'
+
   return(
+    <StarField>
     <div className={styles.container}>
       <main className={styles.main}>
 
-        <div className={styles.titleHolder}>
-          <h1 className={styles.title}>Project<span className={styles.title2}>Photos</span></h1>
-        </div>
+      <PageTitle>
+      {t1}
+      {t2}
+      </PageTitle>
 
         <aside className={styles.linkHolder}>
           <Link href="/"><a>Home</a></Link>
@@ -20,5 +27,6 @@ export default function Gallery(){
 
       </main>
     </div>
+    </StarField>
   )
 }

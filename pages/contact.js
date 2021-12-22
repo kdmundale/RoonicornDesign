@@ -1,17 +1,24 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import PageTitle from '/components/title'
+import StarField from '/components/star_field'
 
 import styles from '../styles/Home.module.css'
 
 export default function Contact(){
 
+  let t1 = 'Contact'
+  let t2 ='Us'
+
   return(
+    <StarField>
     <div className={styles.container}>
       <main className={styles.main}>
-        <div className={styles.titleHolder}>
-          <h1 className={styles.title}>Contact<span className={styles.title2}>Us</span></h1>
-        </div>
+      <PageTitle>
+      {t1}
+      {t2}
+      </PageTitle>
 
         <article className={styles.contactbox}>
           <section className={styles.contactLink}>
@@ -50,5 +57,6 @@ export default function Contact(){
 
       </main>
     </div>
+    </StarField>
   )
 }

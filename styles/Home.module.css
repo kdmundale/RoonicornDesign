@@ -51,7 +51,8 @@
   top: 7%;
   margin-right: auto; /* Negative half of height. */
   margin-left: auto; /* Negative half of width. */
-  padding: 20px 40px;
+  padding: 20px;
+  width: 80%;
   background-color: rgba(216, 207, 205, 1);
   box-shadow: 0 3px 3px rgba(186, 178, 181, .4);
   z-index: 5;
@@ -81,29 +82,54 @@
 }
 
 .description {
-  margin: 2rem 0;
+  font-family: "Raleway";
+  margin: 3rem 0;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+}
+
+.description span {
+  font-family: "Bad Script";
 }
 
 .block {
  display: flex;
- flex-direction: column;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
  margin-bottom: 2rem;
+ font-size: 2rem;
 }
 
-#ig_icon {
-  background-image: url("../public/images/icons/insta.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 8vh;
+.contactbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactLink {
+  display: flex;
+  flex-direction: row;
 }
 
 .about {
-  margin: 2rem;
+  background-color: rgba(216, 207, 205, 1);
+  margin:auto;
   text-align: center;
   width: 80%;
+}
+
+.about h3 {
+  font-family: "Bad Script";
+  font-size: 2.5rem;
+}
+
+.about p {
+  width: 80%;
+  margin: auto;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 
 .grid {
@@ -139,15 +165,13 @@
 .card:active {
 }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
+.grid h2{
+  font-family: "Raleway";
 }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+.grid span {
+  font-family: "Bad Script";
+  margin-left: 2px;
 }
 
 .logo {
@@ -172,7 +196,7 @@
 }
 
 @media (max-width: 600px) {
-  ,container{
+  .container{
     padding-top: 15%;
   }
   .grid {
@@ -186,5 +210,12 @@
 
   .title, .title2 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .title, .title2 {
+    font-size: 3.5rem;
   }
 }

@@ -19,8 +19,8 @@ export default function Contact(){
               <Image
               src="/images/icons/insta.png"
               layout='intrinsic'
-              height={140}
-              width={140}
+              height={130}
+              width={130}
               alt="image of handmade wooden watchbox in walnut"
               rel="preload"
               />
@@ -33,8 +33,8 @@ export default function Contact(){
               <Image
               src="/images/icons/email.png"
               layout='intrinsic'
-              height={140}
-              width={140}
+              height={130}
+              width={130}
               alt="image of handmade wooden watchbox in walnut"
               rel="preload"
               />

@@ -25,15 +25,11 @@ export default function Home() {
         </div>
 
         <div className={styles.unibox}>
-        <Image src="/unicorn1.gif"
-        layout='intrinsic'
-        height={130}
-        width={100}
-        alt="image of handmade wooden watchbox in walnut"
-        rel="preload"/>
-        <p className={styles.description}>
-          Custom<span>Woodcrafts</span>
-        </p>
+          <div className={styles.imagecontainer}>
+          </div>
+          <p className={styles.description}>
+            Custom<span>Woodcrafts</span>
+          </p>
         </div>
 
         <MyCarousel/>

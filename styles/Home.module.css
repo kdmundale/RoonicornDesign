@@ -54,7 +54,7 @@
 }
 
 .unibox {
-  padding-top: 14rem;
+  padding-top: 10rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -86,8 +86,19 @@
   margin: 4rem 0;
   padding-top: 5vw;
   line-height: 1.5;
-  font-size: 4vw;
+  font-size: 4.5vw;
 }
+
+.imagecontainer {
+  margin-top: 2rem;
+  width: 9vw;
+  height: 10vw;
+  background-image: url('/unicorn1.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 
 .description span {
   font-family: "Bad Script";

@@ -20,3 +20,16 @@
   margin-right: auto;
   background-color: rgba(216, 207, 205, 1);
 }
+
+@media (min-width: 1000px) {
+
+  .main {
+    height: 31.5rem;
+  }
+
+  .card {
+    height: 30.5rem;
+  }
+
+
+}

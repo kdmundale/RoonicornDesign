@@ -19,7 +19,7 @@
 .container main {
   max-width: 1020px;
   min-height: 100vh;
-  padding: 10vw 0;
+  padding: 8vw 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -54,7 +54,7 @@
 }
 
 .unibox {
-  padding-top: 15vw;
+  padding-top: 4vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -218,7 +218,49 @@
 
 }
 
-@media (max-width: 800px) {
+@media (min-width: 800px) {
 
+.titleHolder {
+    top: 4rem;
+}
+
+}
+
+@media (min-width: 1000px) {
+
+.titleHolder {
+    font-size: 3rem;
+}
+
+.description {
+  font-size: 3rem;
+}
+
+.unibox {
+  padding-top: 1rem;
+}
+
+.container main {
+  padding: 5rem 0;
+}
+
+.imagecontainer {
+  margin-top: 2vw;
+  width: 9vw;
+  height: 10vw;
+  background-image: url('/unicorn1.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about h3 {
+  font-family: "Bad Script";
+  font-size: 2.5vw;
+}
+
+.about p {
+  font-size: 2rem;
+}
 
 }

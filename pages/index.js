@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import MyCarousel from '/components/carousel'
 
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
 
-  let quote ="Named after his daughter Marissa's favorite animal, the unicorn, and inspired by her strength through her cancer journey, Roonicorn Designs was started by Adam Smerick after her diagnosis."
+  let quote ="Started by Adam Smerick after his daughter's childhood cancer diagnosis, Roonicorn Designs is named after Marissa's favorite animal, the unicorn, and inspired by her strength through treatment."
   return (
     <div className={styles.container}>
       <Head>
@@ -22,25 +23,12 @@ export default function Home() {
         </h1>
         </div>
         <p className={styles.description}>
-          Custom Woodcrafts and Furniture
+          Custom<span>Woodcrafts</span>
         </p>
-        <a className={styles.block} target="blank" href="https://www.instagram.com/rooni_corn_designs/">
-        <span id={styles.ig_icon}></span>
-        @rooni_corn_designs
-        </a>
 
-        <Image
-        src="/images/watchbox3.jpg"
-        layout='intrinsic'
-        height={450}
-        width={600}
-        alt="image of handmade wooden watchbox in walnut"
-        rel="preload"
-        />
+        <MyCarousel/>
 
         <section className={styles.about}>
-
-        <h3>Roonicorn</h3>
 
         <p>{quote}</p>
         </section>
@@ -48,17 +36,17 @@ export default function Home() {
         <div className={styles.grid}>
           <Link href="/riss">
           <a>
-          <h2>About Marissa</h2>
+          <h2>About<span>Marissa</span></h2>
           </a>
           </Link>
           <Link href="/gallery">
           <a>
-            <h2>Project Photos</h2>
+            <h2>Project<span>Photos</span></h2>
           </a>
           </Link>
           <Link href="/contact">
           <a>
-            <h2>Contact Roonicorn</h2>
+            <h2>Contact<span>Roonicorn</span></h2>
           </a>
           </Link>
         </div>

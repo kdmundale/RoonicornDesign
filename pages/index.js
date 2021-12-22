@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -44,23 +46,21 @@ export default function Home() {
         </section>
 
         <div className={styles.grid}>
-          <a href="" className={styles.card}>
-            <h2>About Marissa</h2>
+          <Link href="/riss">
+          <a>
+          <h2>About Marissa</h2>
           </a>
-
-          <a
-            href=""
-            className={styles.card}
-          >
+          </Link>
+          <Link href="/gallery">
+          <a>
             <h2>Project Photos</h2>
           </a>
-
-          <a
-            href=""
-            className={styles.card}
-          >
+          </Link>
+          <Link href="/contact">
+          <a>
             <h2>Contact Roonicorn</h2>
           </a>
+          </Link>
         </div>
 
       </main>

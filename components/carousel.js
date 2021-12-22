@@ -14,7 +14,7 @@ export default class MyCarousel extends Component {
                   <div className={styles.card}>
                       <Image src="/images/watchbox3.jpg"
                       layout='intrinsic'
-                      height={475}
+                      height={450}
                       width={600}
                       alt="image of handmade wooden watchbox in walnut"
                       rel="preload"/>
@@ -23,8 +23,8 @@ export default class MyCarousel extends Component {
                   <div className={styles.card}>
                     <Image src="/images/tree.png"
                     layout='intrinsic'
-                    height={550}
-                    width={400}
+                    height={450}
+                    width={350}
                     alt="image of handmade wooden watchbox in walnut"
                     rel="preload"/>
                   </div>

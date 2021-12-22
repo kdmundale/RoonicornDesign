@@ -16,15 +16,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico"/>
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.uni}>
+
         <div className={styles.titleHolder}>
         <h1 className={styles.title}>
           Roonicorn<span className={styles.title2}>Designs</span>
         </h1>
         </div>
+
+        <div className={styles.unibox}>
+        <Image src="/unicorn1.gif"
+        layout='intrinsic'
+        height={130}
+        width={100}
+        alt="image of handmade wooden watchbox in walnut"
+        rel="preload"/>
         <p className={styles.description}>
           Custom<span>Woodcrafts</span>
         </p>
+        </div>
 
         <MyCarousel/>
 

@@ -8,12 +8,18 @@
 }
 
 .container {
-  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+  margin: auto;
+
 }
 
-.main {
+.container main {
+  max-width: 1020px;
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 10vw 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -35,29 +41,24 @@
   color: black;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
 .titleHolder {
   position: fixed;
   font-size: 4.5vw;
-  top: 7%;
-  margin-right: auto; /* Negative half of height. */
-  margin-left: auto; /* Negative half of width. */
+  top: 150px;
+  width: 90%;
+  margin: auto;
   padding: 20px;
-  width: 80%;
   background-color: rgba(216, 207, 205, 1);
   box-shadow: 0 3px 3px rgba(186, 178, 181, .4);
   z-index: 5;
+}
 
+.unibox {
+  padding-top: 14rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
@@ -82,7 +83,8 @@
 
 .description {
   font-family: "Raleway";
-  margin: 3rem 0;
+  margin: 4rem 0;
+  padding-top: 5vw;
   line-height: 1.5;
   font-size: 4vw;
 }
@@ -133,7 +135,8 @@
 
 .grid {
   display: flex;
-  margin:1rem;
+  margin:auto;
+  margin-top: 3rem;
   padding: 1.5rem;
   align-items: center;
   justify-content: center;

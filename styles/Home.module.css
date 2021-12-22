@@ -29,12 +29,18 @@
 }
 
 .footer {
+  font-size: .75rem;
+  text-align: center;
   display: flex;
   flex: 1;
   color: darkgrey;
   padding: 2rem 0;
   justify-content: center;
   align-items: center;
+}
+
+.footer a {
+  color: darkblue;
 }
 
 .footer a:hover{

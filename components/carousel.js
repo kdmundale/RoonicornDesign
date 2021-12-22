@@ -10,11 +10,11 @@ export default class MyCarousel extends Component {
         return (
             <div>
 
-              <Carousel>
+              <Carousel className={styles.main}>
                   <div className={styles.card}>
                       <Image src="/images/watchbox3.jpg"
                       layout='intrinsic'
-                      height={450}
+                      height={475}
                       width={600}
                       alt="image of handmade wooden watchbox in walnut"
                       rel="preload"/>

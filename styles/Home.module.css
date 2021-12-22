@@ -48,6 +48,7 @@
 
 .titleHolder {
   position: fixed;
+  font-size: 4.5vw;
   top: 7%;
   margin-right: auto; /* Negative half of height. */
   margin-left: auto; /* Negative half of width. */
@@ -62,7 +63,6 @@
 .title {
   margin: 0;
   line-height: 1.1;
-  font-size: 5rem;
   font-family:"Bad Script";
   color: #123C69;
 }
@@ -70,7 +70,6 @@
 .title2 {
   margin: 0;
   line-height: 1.1;
-  font-size: 5rem;
   font-family:"Raleway";
   color: #AC3B61;
   color: rgb(53, 35, 23);
@@ -85,7 +84,7 @@
   font-family: "Raleway";
   margin: 3rem 0;
   line-height: 1.5;
-  font-size: 1.75rem;
+  font-size: 4vw;
 }
 
 .description span {
@@ -98,7 +97,7 @@
  justify-content: space-between;
  align-items: center;
  margin-bottom: 2rem;
- font-size: 2rem;
+ font-size: 1.75rem;
 }
 
 .contactbox {
@@ -120,13 +119,13 @@
 
 .about h3 {
   font-family: "Bad Script";
-  font-size: 2.5rem;
+  font-size: 2.5vw;
 }
 
 .about p {
   width: 80%;
   margin: auto;
-  font-size: 1.25rem;
+  font-size: 3vw;
   font-weight: bold;
   padding-bottom: 2rem;
   padding-top: 2rem;
@@ -190,9 +189,6 @@
 
 @media (max-width: 400px) {
 
-  .title, .title2 {
-    font-size: 2rem;
-  }
 }
 
 @media (max-width: 600px) {
@@ -208,14 +204,10 @@
 
 @media (max-width: 700px) {
 
-  .title, .title2 {
-    font-size: 3rem;
-  }
+
 }
 
 @media (max-width: 800px) {
 
-  .title, .title2 {
-    font-size: 3.5rem;
-  }
+
 }

@@ -8,12 +8,16 @@ export default function Contact(){
     <div className={styles.container}>
       <main className={styles.main}>
         <div className={styles.titleHolder}>
-          <h1 className={styles.title}>Roonicorn<span className={styles.title2}>Contact</span></h1>
+          <h1 className={styles.title}>Contact<span className={styles.title2}>Us</span></h1>
         </div>
 
-        <Link href="/"><a>Home</a></Link>
+        <aside className={styles.linkHolder}>
+          <Link href="/"><a>Home</a></Link>
+          <Link href="/gallery"><a>Gallery</a></Link>
+          <Link href="/riss"><a>About</a></Link>
+        </aside>
 
-        </main>
+      </main>
     </div>
   )
 }

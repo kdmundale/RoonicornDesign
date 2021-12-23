@@ -249,7 +249,7 @@
 
 .linkHolder{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .linkHolder a {
@@ -257,7 +257,7 @@
   padding: 1rem;
   text-align: left;
   color: #123C69;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 900;
   background-color: #BAB2B5;
   background: radial-gradient(#BAB2B5,#a69da1);
@@ -270,7 +270,7 @@
 }
 
 .linkHolder a:hover {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   border: 1px solid #123C69;
   background-color: #123C69;
   background: radial-gradient(#144375,#0f3359);
@@ -298,6 +298,9 @@
 }
 
 @media (min-width: 800px) {
+  .linkHolder{
+    flex-direction: row;
+  }
 
 .titleHolder {
     top: 4rem;

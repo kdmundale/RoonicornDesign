@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import MyCarousel from '/components/carousel'
 import PageTitle from '/components/title'
-import StarField from '/components/star_field'
+import ToolFloat from '/components/tools'
 
 import styles from '../styles/Home.module.css'
 
@@ -15,7 +15,6 @@ export default function Home() {
   let quote ="Began by Adam Smerick in the wake of his daughter's cancer diagnosis, Roonicorn Designs is named after Marissa's favorite animal, the unicorn."
   let qb = "With over 20 years of woodworking expierience, Adam works with you to bring custom pieces into your home."
   return (
-    <StarField>
     <div className={styles.container}>
       <Head>
         <title>Roonicorn Design</title>
@@ -24,6 +23,13 @@ export default function Home() {
       </Head>
 
       <main className={styles.uni}>
+      <div className={styles.tools}>
+      
+      </div>
+
+      <div className={styles.tools1}>
+
+      </div>
 
         <PageTitle>
         {t1}
@@ -69,6 +75,5 @@ export default function Home() {
       <p>page built and maintained by <a target="blank" href="https://kdmundale.com">kdmundale.com</a> Copywrite 2021</p>
       </footer>
     </div>
-    </StarField>
   )
 }

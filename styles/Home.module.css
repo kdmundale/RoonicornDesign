@@ -26,6 +26,33 @@
   justify-content: center;
   align-items: center;
   font-family: "Roboto";
+  z-index: 1;
+}
+
+.tools {
+  position: fixed;
+  height: 45vh;
+  top: 4vh;
+  left:3vw;
+  width: 67vh;
+  background-image: url('/toolsvert.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: .25;
+  z-index: -1;
+}
+
+.tools1 {
+  position: fixed;
+  bottom: 4vh;
+  right:3vw;
+  height: 45vh;
+  width: 67vh;
+  background-image: url('/toolsvert.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: .25;
+  z-index: -1;
 }
 
 .footer {
@@ -121,6 +148,7 @@
  align-items: center;
  margin-bottom: 2rem;
  font-size: 1.75rem;
+ z-index: 1;
 }
 
 .contactbox {
@@ -163,11 +191,12 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  width:60vw;
+  width:100%;
   border-radius: 5px;
 }
 
 .grid a{
+
   margin: 1rem;
   padding: 1rem;
   text-align: left;
@@ -178,7 +207,6 @@
   border: 1px solid #EEE2DC;
   box-shadow: 0px 0px 6px #EEE2DC;
   border-radius: 5px;
-  width:70%;
   text-align: center;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 250px;
@@ -187,6 +215,14 @@
 .card:hover,
 .card:focus,
 .card:active {
+}
+
+.grid a:hover {
+  border: 1px solid #123C69;
+  background-color: #123C69;
+  color: #BAB2B5;
+  box-shadow: 0px 0px 9px #123C69;
+
 }
 
 .grid h2{
@@ -211,6 +247,8 @@
 .linkHolder a {
   padding: 0 10px;
 }
+
+
 
 @media (max-width: 400px) {
 

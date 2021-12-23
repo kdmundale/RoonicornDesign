@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import MyCarousel from '/components/carousel'
 import PageTitle from '/components/title'
-import ToolFloat from '/components/tools'
 
 import styles from '../styles/Home.module.css'
 
@@ -24,7 +23,7 @@ export default function Home() {
 
       <main className={styles.uni}>
       <div className={styles.tools}>
-      
+
       </div>
 
       <div className={styles.tools1}>

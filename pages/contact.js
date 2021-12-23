@@ -26,12 +26,12 @@ export default function Contact(){
               <Image
               src="/images/icons/insta.png"
               layout='intrinsic'
-              height={110}
-              width={110}
+              height={100}
+              width={100}
               alt="image of handmade wooden watchbox in walnut"
               rel="preload"
               />
-            @rooni_corn_designs
+            rooni_corn_designs
             </a>
           </section>
 
@@ -40,12 +40,12 @@ export default function Contact(){
               <Image
               src="/images/icons/email.png"
               layout='intrinsic'
-              height={100}
-              width={100}
+              height={95}
+              width={95}
               alt="image of handmade wooden watchbox in walnut"
               rel="preload"
               />
-            email roonicorn.info
+            roonicorn.info
             </a>
           </section>
         </article>

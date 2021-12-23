@@ -87,7 +87,8 @@
   margin: auto;
   padding: 10px;
   background-color: rgba(216, 207, 205, 1);
-  box-shadow: 0 3px 3px rgba(186, 178, 181, .4);
+  background: radial-gradient(#e6dedc,#d8cfcd,#c2bab8);
+  box-shadow: 0 3px 4px rgba(194, 186, 184, .4);
   z-index: 5;
 }
 
@@ -163,6 +164,7 @@
 
 .about {
   background-color: rgba(216, 207, 205, 1);
+  background: radial-gradient(#e6dedc,#d8cfcd,#c2bab8);
   margin:auto;
   text-align: center;
   width: 90%;
@@ -209,7 +211,11 @@
   border-radius: 5px;
   text-align: center;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 250px;
+  width: 250px;
+  background: radial-gradient(#BAB2B5,#a69da1);
+  text-decoration: none;
+  border: 1px solid #a69da1;
+  box-shadow: 0px 0px 6px #a69da1;
 }
 
 .card:hover,
@@ -218,10 +224,12 @@
 }
 
 .grid a:hover {
+  font-size: 1.25rem;
   border: 1px solid #123C69;
   background-color: #123C69;
   color: #BAB2B5;
-  box-shadow: 0px 0px 9px #123C69;
+  background: radial-gradient(#144375,#0f3359);
+  box-shadow: 0px 0px 9px #0f3359;
 
 }
 
@@ -245,7 +253,29 @@
 }
 
 .linkHolder a {
-  padding: 0 10px;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: left;
+  color: #123C69;
+  font-size: 1.5rem;
+  font-weight: 900;
+  background-color: #BAB2B5;
+  background: radial-gradient(#BAB2B5,#a69da1);
+  text-decoration: none;
+  border: 1px solid #a69da1;
+  box-shadow: 0px 0px 6px #a69da1;
+  border-radius: 5px;
+  text-align: center;
+  width: 150px;
+}
+
+.linkHolder a:hover {
+  font-size: 1.75rem;
+  border: 1px solid #123C69;
+  background-color: #123C69;
+  background: radial-gradient(#144375,#0f3359);
+  color: #BAB2B5;
+  box-shadow: 0px 0px 9px #123C69;
 }
 
 

@@ -5,6 +5,7 @@
   width: 90%;
   max-width: 1020px;
   background-color: rgba(216, 207, 205, .5);
+  background: radial-gradient(#e6dedc,#d8cfcd,#c2bab8);
   margin-bottom: 5rem;
 }
 

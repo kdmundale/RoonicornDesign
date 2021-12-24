@@ -12,7 +12,7 @@
   background-color: rgba(216, 207, 205, 1);
   border: 2px solid #c2bab8;
   background: radial-gradient(#e6dedc,#d8cfcd,#c2bab8);
-  box-shadow: 0 3px 4px rgba(194, 186, 184, .4);
+  box-shadow: 0 0 3px 4px rgba(194, 186, 184, .7);
   z-index: 5;
 }
 

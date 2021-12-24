@@ -1,0 +1,51 @@
+.main{
+  padding-top: 20vw;
+  width: 90%;
+  margin: auto;
+}
+
+.main div {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem 3rem;;
+}
+
+.main div p {
+  margin: 1rem;
+}
+
+@media (max-width: 799px){
+
+  .main div{
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 800px) {
+
+  .main div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .adam, .silly, .parasail, .treatment1 {
+    flex-direction: row;
+  }
+
+  .hair, .hospital, .beach {
+    flex-direction: row-reverse;
+  }
+
+  .main div p {
+    width: 50%;
+  }
+}
+
+@media (min-width:1200px){
+  .main {
+    width:1100px;
+  }
+}

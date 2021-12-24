@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import PageTitle from '/components/title'
+import Footer from '/components/footer'
 import StarField from '/components/star_field'
 
 import styles from '../styles/Home.module.css'
@@ -24,28 +25,42 @@ export default function Contact(){
           <section className={styles.contactLink}>
             <a className={styles.block} target="blank" href="https://www.instagram.com/rooni_corn_designs/">
               <Image
-              src="/images/icons/insta.png"
+              src="/images/icons/ig_icon.png"
               layout='intrinsic'
-              height={100}
-              width={100}
+              height={80}
+              width={80}
               alt="image of handmade wooden watchbox in walnut"
               rel="preload"
               />
-            rooni_corn_designs
+            <p>rooni_corn_designs</p>
             </a>
           </section>
 
           <section className={styles.contactLink}>
             <a className={styles.block} target="blank" href="mailto: roonicorn.info@gmail.com">
               <Image
-              src="/images/icons/email.png"
+              src="/images/icons/email_icon.png"
               layout='intrinsic'
-              height={95}
-              width={95}
+              height={80}
+              width={80}
               alt="image of handmade wooden watchbox in walnut"
               rel="preload"
               />
-            roonicorn.info
+            <p>roonicorn.info</p>
+            </a>
+          </section>
+
+          <section className={styles.contactLink}>
+            <a className={styles.block} target="blank" href="https://www.facebook.com/adam.smerick">
+              <Image
+              src="/images/icons/fb_icon.png"
+              layout='intrinsic'
+              height={80}
+              width={80}
+              alt="image of handmade wooden watchbox in walnut"
+              rel="preload"
+              />
+            <p>Adam Smerick</p>
             </a>
           </section>
         </article>
@@ -56,6 +71,7 @@ export default function Contact(){
         </aside>
 
       </main>
+      <Footer/>
     </div>
     </StarField>
   )

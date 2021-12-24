@@ -48,7 +48,7 @@ export default function Riss(){
         <p>MyRoonicorn Page</p>
         </a>
       </section>
-        <section classname={styles.contactLink}>
+        <section className={styles.contactLink}>
         <a className={styles.block} target="blank" href="https://www.fourdiamonds.org/get-involved/">
           <Image
           src="/images/icons/4_dia.png"
@@ -61,7 +61,7 @@ export default function Riss(){
         <p>Four Diamonds Fund</p>
         </a>
       </section>
-      <section classname={styles.contactLink}>
+      <section className={styles.contactLink}>
       <a className={styles.block} target="blank" href="https://cancer.psu.edu/pediatric-services">
         <Image
         src="/images/icons/hershey.png"

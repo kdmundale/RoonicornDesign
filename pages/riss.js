@@ -74,7 +74,7 @@ export default function Riss(){
       <p>Penn State Cancer Institute</p>
       </a>
     </section>
-      <section classname={styles.contactLink}>
+      <section className={styles.contactLink}>
       <a className={styles.block} target="blank" href="https://www.chop.edu/cccr">
         <Image
         src="/images/icons/chop.png"
@@ -87,7 +87,7 @@ export default function Riss(){
       <p>Childrens Hospital of Philadelphia</p>
       </a>
     </section>
-    <section classname={styles.contactLink}>
+    <section className={styles.contactLink}>
     <a className={styles.block} target="blank" href="https://pcrf-kids.org/">
       <Image
       src="/images/icons/pcrf_logo.png"

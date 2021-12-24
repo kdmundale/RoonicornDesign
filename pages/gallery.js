@@ -29,7 +29,7 @@ export default function Gallery(){
       <div>
       <Image src="/images/watchbox2.JPG"
       layout='intrinsic'
-      height={600}
+      height={650}
       width={650}
       alt="image of handmade wooden watchbox in walnut"
       rel="preload"/>
@@ -78,7 +78,6 @@ export default function Gallery(){
       alt="image of handmade wooden watchbox in walnut"
       rel="preload"/>
       </div>
-
       </section>
 
         <aside className={styles.linkHolder}>

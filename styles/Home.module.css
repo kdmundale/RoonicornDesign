@@ -56,10 +56,13 @@
 }
 
 .footer {
-  font-size: .75rem;
+  margin: 4rem auto;
+  width: 100%;
+  font-size: 1rem;
   text-align: center;
   display: flex;
   flex: 1;
+  background-color: rgba(216, 207, 205, .3);
   color: darkgrey;
   padding: 2rem 0;
   justify-content: center;
@@ -67,29 +70,14 @@
 }
 
 .footer a {
-  font-size: .85rem;
+  padding: 4rem 0;
+  font-size: 1.15rem;
   color: darkblue;
 }
 
 .footer a:hover{
   color: black;
-}
-
-.titleHolder {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-  font-size: 4.5vw;
-  top: 10vw;
-  width: 90%;
-  margin: auto;
-  padding: 10px;
-  background-color: rgba(216, 207, 205, 1);
-  background: radial-gradient(#e6dedc,#d8cfcd,#c2bab8);
-  box-shadow: 0 3px 4px rgba(194, 186, 184, .4);
-  z-index: 5;
+  font-size: 1.25rem;
 }
 
 .unibox {
@@ -100,43 +88,14 @@
   justify-content: center;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.1;
-  font-family:"Bad Script";
-  color: #123C69;
-}
-
-.title2 {
-  margin: 0;
-  line-height: 1.1;
-  font-family:"Raleway";
-  color: #AC3B61;
-  color: rgb(53, 35, 23);
-}
-
-.title,
 .description {
   text-align: center;
-}
-
-.description {
   font-family: "Raleway";
   margin: 4rem 0;
   padding-top: 5vw;
   line-height: 1.5;
-  font-size: 4.5vw;
+  font-size: 5vw;
 }
-
-.imagecontainer {
-  width: 11vw;
-  height: 12vw;
-  background-image: url('/unicorn1.gif');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 
 .description span {
   font-family: "Bad Script";
@@ -147,10 +106,22 @@
  flex-direction: row;
  justify-content: space-between;
  align-items: center;
- margin-bottom: 2rem;
+ margin-bottom: 4rem;
  font-size: 1.5rem;
- font-family: "Bad Script";
+ font-family: "Raleway";
  z-index: 1;
+}
+
+.block p {
+  margin: 1rem;
+}
+
+.block:hover {
+  padding: 1rem;
+  border-radius: 30px;
+  font-family: "Raleway";
+  /* background-color:#123C69; */
+  box-shadow: 0px 0px 20px 30px #123C69;
 }
 
 .contactbox {
@@ -159,6 +130,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 5rem auto;
 }
 
 .contactLink {
@@ -222,11 +194,6 @@
   text-decoration: none;
   border: 1px solid #a69da1;
   box-shadow: 0px 0px 6px #a69da1;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
 }
 
 .grid a:hover {
@@ -300,6 +267,7 @@
 
 @media (max-width: 400px) {
 
+
 }
 
 @media (max-width: 600px) {
@@ -310,6 +278,9 @@
   .galleryBox {
     padding-top: 4rem;
   }
+  .description{
+    font-size: 2rem;
+  }
 
 }
 
@@ -319,45 +290,33 @@
 }
 
 @media (min-width: 800px) {
+
   .linkHolder{
     flex-direction: row;
   }
-
-.titleHolder {
-    top: 4rem;
-}
 
 }
 
 @media (min-width: 1000px) {
 
-.titleHolder {
+  .description {
     font-size: 3rem;
-}
+  }
 
-.description {
-  font-size: 3rem;
-}
+  .unibox {
+    padding-top: 1rem;
+  }
 
-.unibox {
-  padding-top: 1rem;
-}
+  .container main {
+    padding: 5rem 0;
+  }
 
-.container main {
-  padding: 5rem 0;
-}
+  .about h3 {
+    font-size: 2.5vw;
+  }
 
-.imagecontainer {
-  width: 7rem;
-  height: 7.5rem;
-}
-
-.about h3 {
-  font-size: 2.5vw;
-}
-
-.about p {
-  font-size: 2rem;
-}
+  .about p {
+    font-size: 2rem;
+  }
 
 }

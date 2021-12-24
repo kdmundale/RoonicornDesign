@@ -1,0 +1,74 @@
+.titleHolder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  font-size: 4.5vw;
+  top: 6vw;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(216, 207, 205, 1);
+  border: 2px solid #c2bab8;
+  background: radial-gradient(#e6dedc,#d8cfcd,#c2bab8);
+  box-shadow: 0 3px 4px rgba(194, 186, 184, .4);
+  z-index: 5;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+  line-height: 1.1;
+  font-family:"Bad Script";
+  color: #123C69;
+}
+
+.title2 {
+  text-align: center;
+  margin: 0;
+  line-height: 1.1;
+  font-family:"Raleway";
+  color: #AC3B61;
+  color: rgb(53, 35, 23);
+}
+
+.imagecontainer {
+  width: 11vw;
+  height: 12vw;
+  background-image: url('/unicorn1.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media (max-width: 700px) {
+
+
+}
+
+@media (min-width: 800px) {
+
+  .titleHolder {
+      top: 4rem;
+  }
+
+}
+
+@media (min-width: 1000px) {
+
+  .titleHolder {
+      font-size: 3rem;
+  }
+
+  .description {
+    font-size: 3rem;
+  }
+
+  .imagecontainer {
+    width: 7rem;
+    height: 7.5rem;
+  }
+
+
+}

@@ -14,8 +14,8 @@ export default class MyCarousel extends Component {
                   <div className={styles.card}>
                       <Image src="/images/watchbox3.jpg"
                       layout='intrinsic'
-                      height={450}
-                      width={600}
+                      height={550}
+                      width={700}
                       alt="image of handmade wooden watchbox in walnut"
                       rel="preload"/>
                   </div>
@@ -23,8 +23,8 @@ export default class MyCarousel extends Component {
                   <div className={styles.card}>
                     <Image src="/images/joints.png"
                     layout='intrinsic'
-                    height={450}
-                    width={400}
+                    height={550}
+                    width={500}
                     alt="image of handmade wooden watchbox in walnut"
                     rel="preload"/>
                   </div>
@@ -32,8 +32,8 @@ export default class MyCarousel extends Component {
                   <div className={styles.card}>
                     <Image src="/images/snowmen.JPG"
                     layout='intrinsic'
-                    height={450}
-                    width={500}
+                    height={550}
+                    width={600}
                     alt="image of handmade wooden watchbox in walnut"
                     rel="preload"/>
                   </div>
@@ -41,8 +41,8 @@ export default class MyCarousel extends Component {
                   <div className={styles.card}>
                     <Image src="/images/gluing.png"
                     layout='intrinsic'
-                    height={450}
-                    width={500}
+                    height={550}
+                    width={600}
                     alt="image of handmade wooden watchbox in walnut"
                     rel="preload"/>
                   </div>
@@ -50,8 +50,8 @@ export default class MyCarousel extends Component {
                   <div className={styles.card}>
                     <Image src="/images/watchbox2.JPG"
                     layout='intrinsic'
-                    height={450}
-                    width={600}
+                    height={550}
+                    width={700}
                     alt="image of handmade wooden watchbox in walnut"
                     rel="preload"/>
                   </div>

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import MyCarousel from '/components/carousel'
 import PageTitle from '/components/title'
+import Footer from '/components/footer'
 
 import styles from '../styles/Home.module.css'
 
@@ -69,10 +70,7 @@ export default function Home() {
         </div>
 
       </main>
-
-      <footer className={styles.footer}>
-      <p>page built and maintained by <a target="blank" href="https://kdmundale.com">kdmundale.com</a> Copywrite 2021</p>
-      </footer>
+      <Footer/>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from '../styles/Home.module.css'
+import styles from '../styles/TitleCard.module.css'
 
 export default function PageTitle({children}){
   let blah = children[0]

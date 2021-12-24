@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import PageTitle from '/components/title'
+import Footer from '/components/footer'
 
 import styles from '../styles/Home.module.css'
 
@@ -26,42 +27,54 @@ export default function Gallery(){
       </div>
       <section className={styles.galleryBox}>
       <div>
-      <Image src="/images/tree.png"
+      <Image src="/images/watchbox2.JPG"
       layout='intrinsic'
       height={600}
-      width={550}
+      width={650}
       alt="image of handmade wooden watchbox in walnut"
       rel="preload"/>
       </div>
+
       <div>
-      <Image src="/images/tp_tower.png"
+      <Image src="/images/tree.png"
       layout='intrinsic'
       height={700}
-      width={550}
+      width={650}
       alt="image of handmade wooden watchbox in walnut"
       rel="preload"/>
       </div>
+
       <div>
       <Image src="/images/working.png"
       layout='intrinsic'
-      height={550}
-      width={550}
+      height={650}
+      width={650}
       alt="image of handmade wooden watchbox in walnut"
       rel="preload"/>
       </div>
+
+      <div>
+      <Image src="/images/watchbox3.jpg"
+      layout='intrinsic'
+      height={500}
+      width={650}
+      alt="image of handmade wooden watchbox in walnut"
+      rel="preload"/>
+      </div>
+
       <div>
       <Image src="/images/snowmen.JPG"
       layout='intrinsic'
-      height={550}
-      width={550}
+      height={650}
+      width={650}
       alt="image of handmade wooden watchbox in walnut"
       rel="preload"/>
       </div>
       <div>
       <Image src="/images/frame_inlay.png"
       layout='intrinsic'
-      height={550}
-      width={550}
+      height={650}
+      width={650}
       alt="image of handmade wooden watchbox in walnut"
       rel="preload"/>
       </div>
@@ -75,6 +88,7 @@ export default function Gallery(){
         </aside>
 
       </main>
+      <Footer/>
     </div>
   )
 }

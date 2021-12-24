@@ -11,8 +11,7 @@ export default function Home() {
 
   let t1 = 'Roonicorn'
   let t2 = 'Designs'
-  let blurb = "Roonicorn Designs specializes in handmade wooden crafts including custom displays and cases, shelving, decorations, signs, and much more!"
-  let quote ="In the wake of his daughter's cancer diagnosis, Adam sought an outlet through woodworking. Roonicorn Designs is named for her favorite animal, the unicorn."
+  let blurb = "Roonicorn Designs, operated by Adam Smerick specializes in handmade wooden crafts including custom displays and cases, shelving, decorations, signs, and much more!"
   let qb = "With over 20 years of woodworking experience, Adam works with you to bring custom pieces into your home."
   return (
     <div className={styles.container}>
@@ -47,7 +46,6 @@ export default function Home() {
 
         <section className={styles.about}>
         <p>{blurb}</p>
-        <p>{quote}</p>
         <p>{qb}</p>
         </section>
 

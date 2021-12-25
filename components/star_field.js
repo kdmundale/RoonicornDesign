@@ -1,6 +1,7 @@
 import styles from '../styles/glitter.module.css'
 import Stars from './stars'
 import Head from 'next/head'
+import Image from 'next/image'
 
 //function to export star field as function for different pages in profile
 export default function StarField({ children, home }){
@@ -23,14 +24,36 @@ export default function StarField({ children, home }){
 
   return(
     <div className={styles.container}>
-    <Head>
-      <link rel="icon" href="favicon.ico"/>
-      <meta name="google-site-verification" content="VqmpJbz5zCentQ8icRG2Icf8L0yci6lz8f69JkxvFW0"/>
-      <meta
-        name="KDM profile"
-        content="KDM's online profile and portfolio"/>
-      <title>KDMundale</title>
-    </Head>
+    <div className={styles.cloud}>
+    <Image
+    src="/clouds.png"
+    layout='intrinsic'
+    height={500}
+    width={800}
+    alt="image of handmade wooden watchbox in walnut"
+    rel="preload"
+    />
+    </div>
+    <div className={styles.cloud2}>
+    <Image
+    src="/clouds.png"
+    layout='intrinsic'
+    height={300}
+    width={600}
+    alt="image of handmade wooden watchbox in walnut"
+    rel="preload"
+    />
+    </div>
+    <div className={styles.cloud3}>
+    <Image
+    src="/clouds.png"
+    layout='intrinsic'
+    height={200}
+    width={400}
+    alt="image of handmade wooden watchbox in walnut"
+    rel="preload"
+    />
+    </div>
     {allStars.map(function(d, idx){
        return whichStar(d,idx)
      })}

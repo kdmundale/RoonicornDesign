@@ -275,6 +275,43 @@
   animation-delay: 65s;
 }
 
+.cloud {
+  position: fixed;
+  top:2vw;
+  left:1vw;
+  z-index: -2;
+  animation: sideslide 25s;
+  animation-iteration-count:infinite;
+}
+.cloud2 {
+  position: fixed;
+  top:20vw;
+  right:5vw;
+  z-index: -2;
+  animation: sideslide 25s;
+  animation-iteration-count:infinite;
+}
+.cloud3 {
+  position: fixed;
+  bottom:7vw;
+  left:15vw;
+  z-index: -2;
+  animation: sideslide 25s;
+  animation-iteration-count:infinite;
+}
+
+@keyframes sideslide {
+    0% {
+      transform: translate3d(0px, 0px, 0px);
+    }
+    50% {
+      transform:translate3d(50px, 0px, 0px);
+    }
+    100% {
+      transform:translate3d(0px, 0px, 0px);
+    }
+  }
+
 @keyframes twinkle {
   0% {
     opacity: .4;

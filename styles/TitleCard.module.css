@@ -6,7 +6,7 @@
   position: fixed;
   font-size: 4.5vw;
   top: 6vw;
-  width: 90%;
+  width: 98%;
   margin: auto;
   padding: 10px;
   background-color: rgba(216, 207, 205, 1);
@@ -43,6 +43,9 @@
 }
 
 @media only screen and (max-width: 700px) {
+  .titleHolder {
+    margin: auto;
+  }
 
 
 }
@@ -55,7 +58,7 @@
 
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1400px) {
 
   .titleHolder {
       font-size: 3rem;

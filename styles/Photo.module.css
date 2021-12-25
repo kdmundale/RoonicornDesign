@@ -3,6 +3,13 @@
   margin: auto;
 }
 
+.main h2 {
+  font-family: "Bad Script";
+  font-size: 2rem;
+  text-align: center;
+  font-style: italic;
+}
+
 .adam, .silly, .parasail, .treatment1, .hair, .hospital, .beach {
   background: radial-gradient(#e6dedc,#d8cfcd,#c2bab8);
   box-shadow: 0 0 2px 2px rgba(194, 186, 184, .7);

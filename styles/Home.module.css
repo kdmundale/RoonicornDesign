@@ -112,6 +112,7 @@
 }
 
 .block p {
+  text-align: center;
 }
 
 .block p:hover {

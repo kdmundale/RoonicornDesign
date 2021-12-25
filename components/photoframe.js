@@ -4,19 +4,21 @@ import Image from 'next/image'
 import styles from '../styles/Photo.module.css'
 
 export default function PhotoFrame({children}){
-  let text=children[0]
-  let text1=children[1]
-  let text2=children[2]
-  let text3=children[3]
-  let text4=children[4]
-  let text5=children[5]
-  let text6=children[6]
+  let text=children[1]
+  let quote = children[0]
+  let text1=children[2]
+  let text2=children[3]
+  let text3=children[4]
+  let text4=children[5]
+  let text5=children[6]
+  let text6=children[7]
 
   console.log(children)
   console.log("!!!!!!!!!!!!!!!!!!")
 
   return(
     <article className={styles.main}>
+    <h2>{quote}</h2>
     <div className={styles.adam}>
       <div>
       <Image src="/images/Riss/AdamRiss.png"

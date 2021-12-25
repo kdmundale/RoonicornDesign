@@ -52,7 +52,7 @@ export default function Home() {
         <div className={styles.grid}>
           <Link href="/riss">
           <a>
-          <h2>About<span>Marissa</span></h2>
+          <h2>About<span>Roonicorn</span></h2>
           </a>
           </Link>
           <Link href="/gallery">

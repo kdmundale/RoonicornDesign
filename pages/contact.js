@@ -13,13 +13,20 @@ export default function Contact(){
   let t2 ='Us'
 
   return(
-    <StarField>
     <div className={styles.container}>
       <main className={styles.main}>
       <PageTitle>
       {t1}
       {t2}
       </PageTitle>
+
+      <div className={styles.tools}>
+
+      </div>
+
+      <div className={styles.tools1}>
+
+      </div>
 
         <article className={styles.contactbox}>
           <section className={styles.contactLink}>
@@ -73,6 +80,5 @@ export default function Contact(){
       </main>
       <Footer/>
     </div>
-    </StarField>
   )
 }

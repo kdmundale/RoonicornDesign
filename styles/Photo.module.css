@@ -26,6 +26,9 @@
 }
 
 .main section p {
+  font-family: "Roboto";
+  font-weight: bolder;
+  line-height: 1.5;
   margin: 1rem;
 }
 

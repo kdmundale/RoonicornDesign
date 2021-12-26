@@ -72,6 +72,7 @@
   background-color: rgba(216, 207, 205, .3);
   color: darkgrey;
   padding: 2rem 0;
+  height: 7rem;
   justify-content: center;
   align-items: center;
 }
@@ -79,12 +80,11 @@
 .footer a {
   padding: 4rem 0;
   font-size: 1.15rem;
-  color: darkblue;
+  color: rgba(48, 46, 112, .7);
 }
 
 .footer a:hover{
   color: black;
-  font-size: 1.25rem;
 }
 
 .unibox {

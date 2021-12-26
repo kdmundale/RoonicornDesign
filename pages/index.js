@@ -19,6 +19,7 @@ export default function Home() {
         <title>Roonicorn Design</title>
         <meta name="description" content="Roonicorn Designs Home Page" />
         <link rel="icon" href="/favicon.ico"/>
+        <meta name="google-site-verification" content="nFyDox2__5-SddrNVAhPKfsBfuPFekARjktQC6UMTDw" />
       </Head>
 
       <main className={styles.uni}>

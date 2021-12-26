@@ -12,7 +12,7 @@ export default function Gallery(){
 
   return(
     <div className={styles.container}>
-      <main className={styles.main}>
+      <article className={styles.main}>
 
       <PageTitle>
       {t1}
@@ -86,7 +86,7 @@ export default function Gallery(){
           <Link href="/riss"><a>About</a></Link>
         </aside>
 
-      </main>
+      </article>
       <Footer/>
     </div>
   )

@@ -22,7 +22,7 @@ export default function Home() {
         <meta name="google-site-verification" content="nFyDox2__5-SddrNVAhPKfsBfuPFekARjktQC6UMTDw" />
       </Head>
 
-      <main className={styles.uni}>
+      <article className={styles.uni}>
       <div className={styles.tools}>
 
       </div>
@@ -38,9 +38,9 @@ export default function Home() {
 
         <div className={styles.unibox}>
 
-          <p className={styles.description}>
+          <h2 className={styles.description}>
             Custom<span>Woodcrafts</span>
-          </p>
+          </h2>
         </div>
 
         <MyCarousel/>
@@ -50,7 +50,7 @@ export default function Home() {
         <p>{qb}</p>
         </section>
 
-        <div className={styles.grid}>
+        <section className={styles.grid}>
           <Link href="/riss">
           <a>
           <h2>About<span>Roonicorn</span></h2>
@@ -66,9 +66,9 @@ export default function Home() {
             <h2>Contact<span>Roonicorn</span></h2>
           </a>
           </Link>
-        </div>
+        </section>
 
-            </main>
+            </article>
               <Footer/>
     </div>
   )

@@ -19,7 +19,7 @@ export default function PhotoFrame({children}){
   return(
     <article className={styles.main}>
     <h2>{quote}</h2>
-    <div className={styles.adam}>
+    <section className={styles.adam}>
       <div>
       <Image src="/images/Riss/AdamRiss.png"
       layout='intrinsic'
@@ -29,8 +29,8 @@ export default function PhotoFrame({children}){
       rel="preload"/>
       </div>
     <p>{text}</p>
-    </div>
-    <div className={styles.hair}>
+    </section>
+    <section className={styles.hair}>
     <div>
       <Image src="/images/Riss/hair.png"
       layout='intrinsic'
@@ -40,8 +40,8 @@ export default function PhotoFrame({children}){
       rel="preload"/>
       </div>
     <p>{text1}</p>
-    </div>
-    <div className={styles.silly}>
+    </section>
+    <section className={styles.silly}>
     <div>
       <Image src="/images/Riss/silly.png"
       layout='intrinsic'
@@ -51,9 +51,9 @@ export default function PhotoFrame({children}){
       rel="preload"/>
       </div>
     <p>{text2}</p>
-    </div>
+    </section>
 
-    <div className={styles.hospital}>
+    <section className={styles.hospital}>
     <div>
     <Image src="/images/Riss/hospital.png"
     layout='intrinsic'
@@ -63,8 +63,8 @@ export default function PhotoFrame({children}){
     rel="preload"/>
     </div>
     <p>{text3}</p>
-    </div>
-    <div className={styles.parasail}>
+    </section>
+    <section className={styles.parasail}>
     <div>
     <Image src="/images/Riss/parasail.png"
     layout='intrinsic'
@@ -74,8 +74,8 @@ export default function PhotoFrame({children}){
     rel="preload"/>
     </div>
     <p>{text4}</p>
-    </div>
-    <div className={styles.beach}>
+    </section>
+    <section className={styles.beach}>
     <div>
     <Image src="/images/Riss/beach.png"
     layout='intrinsic'
@@ -85,8 +85,8 @@ export default function PhotoFrame({children}){
     rel="preload"/>
     </div>
     <p>{text5}</p>
-    </div>
-    <div className={styles.treatment1}>
+    </section>
+    <section className={styles.treatment1}>
     <div>
     <Image src="/images/Riss/treatment1.png"
     layout='intrinsic'
@@ -96,7 +96,7 @@ export default function PhotoFrame({children}){
     rel="preload"/>
     </div>
     <p>{text6}</p>
-    </div>
+    </section>
     </article>
   )
 }

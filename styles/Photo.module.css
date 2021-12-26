@@ -56,7 +56,7 @@
       padding-top: 30vw;
     }
 
-  .main div{
+  .main section{
     flex-direction: column;
   }
   .adam, .silly, .parasail, .treatment1, .hair, .hospital, .beach {

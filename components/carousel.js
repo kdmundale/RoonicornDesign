@@ -11,6 +11,7 @@ export default class MyCarousel extends Component {
             <div>
 
               <Carousel className={styles.main}>
+
                   <div className={styles.card}>
                       <Image src="/images/watchbox3.jpg"
                       layout='intrinsic'
@@ -25,7 +26,7 @@ export default class MyCarousel extends Component {
                     layout='intrinsic'
                     height={550}
                     width={500}
-                    alt="image of handmade wooden watchbox in walnut"
+                    alt="image of routed shelving joints in a display case"
                     rel="preload"/>
                   </div>
 
@@ -34,7 +35,7 @@ export default class MyCarousel extends Component {
                     layout='intrinsic'
                     height={550}
                     width={600}
-                    alt="image of handmade wooden watchbox in walnut"
+                    alt="rustic snowmen holiday lanterns"
                     rel="preload"/>
                   </div>
 
@@ -43,7 +44,7 @@ export default class MyCarousel extends Component {
                     layout='intrinsic'
                     height={550}
                     width={600}
-                    alt="image of handmade wooden watchbox in walnut"
+                    alt="oak pictureframe in straps being glued together"
                     rel="preload"/>
                   </div>
 
@@ -52,7 +53,7 @@ export default class MyCarousel extends Component {
                     layout='intrinsic'
                     height={550}
                     width={700}
-                    alt="image of handmade wooden watchbox in walnut"
+                    alt="oak watchbox from the side, featuring mable inlays at the corners"
                     rel="preload"/>
                   </div>
 

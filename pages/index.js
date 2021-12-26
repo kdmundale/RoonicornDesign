@@ -11,7 +11,7 @@ export default function Home() {
 
   let t1 = 'Roonicorn'
   let t2 = 'Designs'
-  let blurb = "Roonicorn Designs, operated by Adam Smerick specializes in handmade wooden crafts including custom displays and cases, shelving, decorations, signs, and much more!"
+  let blurb = "Roonicorn Designs, operated by Adam Smerick, specializes in handmade wooden crafts including custom displays and cases, shelving, decorations, signs, and much more!"
   let qb = "With over 20 years of woodworking experience, Adam works with you to bring custom pieces into your home."
   return (
     <div className={styles.container}>

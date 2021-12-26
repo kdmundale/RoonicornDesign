@@ -31,7 +31,16 @@ export default function Gallery(){
       layout='intrinsic'
       height={650}
       width={650}
-      alt="image of handmade wooden watchbox in walnut"
+      alt="oak watchbox from the side, featuring mable inlays at the corners"
+      rel="preload"/>
+      </div>
+
+      <div>
+      <Image src="/images/marble_run.png"
+      layout='intrinsic'
+      height={850}
+      width={650}
+      alt="Custom marble run made of oak, maple, and purple heart wood"
       rel="preload"/>
       </div>
 
@@ -40,7 +49,7 @@ export default function Gallery(){
       layout='intrinsic'
       height={700}
       width={650}
-      alt="image of handmade wooden watchbox in walnut"
+      alt="rustic wood christmas tree sillouette decoration filled with fairy lights"
       rel="preload"/>
       </div>
 
@@ -49,7 +58,7 @@ export default function Gallery(){
       layout='intrinsic'
       height={650}
       width={650}
-      alt="image of handmade wooden watchbox in walnut"
+      alt="view of woorbench closeup, including tools and wood glue"
       rel="preload"/>
       </div>
 
@@ -67,15 +76,16 @@ export default function Gallery(){
       layout='intrinsic'
       height={650}
       width={650}
-      alt="image of handmade wooden watchbox in walnut"
+      alt="rustic snowmen holiday lanterns"
       rel="preload"/>
       </div>
+
       <div>
       <Image src="/images/frame_inlay.png"
       layout='intrinsic'
       height={650}
       width={650}
-      alt="image of handmade wooden watchbox in walnut"
+      alt="view of oak photframe corner, showing purpleheart wood inlays"
       rel="preload"/>
       </div>
       </section>

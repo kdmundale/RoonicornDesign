@@ -36,7 +36,7 @@ export default function Contact(){
               layout='intrinsic'
               height={80}
               width={80}
-              alt="image of handmade wooden watchbox in walnut"
+              alt="Instagram icon"
               rel="preload"
               />
             <p>rooni_corn_designs</p>
@@ -50,7 +50,7 @@ export default function Contact(){
               layout='intrinsic'
               height={80}
               width={80}
-              alt="image of handmade wooden watchbox in walnut"
+              alt="Email icon"
               rel="preload"
               />
             <p>roonicorn.info</p>
@@ -64,7 +64,7 @@ export default function Contact(){
               layout='intrinsic'
               height={80}
               width={80}
-              alt="image of handmade wooden watchbox in walnut"
+              alt="Facebook icon"
               rel="preload"
               />
             <p>Adam Smerick</p>
@@ -73,8 +73,8 @@ export default function Contact(){
         </article>
         <aside className={styles.linkHolder}>
           <Link href="/"><a>Home</a></Link>
-          <Link href="/gallery"><a>Gallery</a></Link>
-          <Link href="/riss"><a>About</a></Link>
+          <Link href="/projects"><a>Projects</a></Link>
+          <Link href="/about_Roonicorn"><a>About</a></Link>
         </aside>
 
       </article>

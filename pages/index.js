@@ -51,12 +51,12 @@ export default function Home() {
         </section>
 
         <section className={styles.grid}>
-          <Link href="/riss">
+          <Link href="/about_Roonicorn">
           <a>
           <h2>About<span>Roonicorn</span></h2>
           </a>
           </Link>
-          <Link href="/gallery">
+          <Link href="/projects">
           <a>
             <h2>Project<span>Photos</span></h2>
           </a>

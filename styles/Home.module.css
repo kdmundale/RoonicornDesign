@@ -24,7 +24,7 @@
   margin: auto;
 }
 
-.container main {
+.container article {
   max-width: 1020px;
   flex: 1;
   display: flex;

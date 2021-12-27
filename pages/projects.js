@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import PageTitle from '/components/title'
@@ -12,6 +13,10 @@ export default function Gallery(){
 
   return(
     <div className={styles.container}>
+    <Head>
+      <title>Roonicorn Designs Projects</title>
+      <meta name="description" content="Roonicorn Designs Projects Page" />
+    </Head>
       <article className={styles.main}>
 
       <PageTitle>

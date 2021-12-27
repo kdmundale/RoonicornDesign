@@ -14,6 +14,10 @@ export default function Contact(){
 
   return(
     <div className={styles.container}>
+    <Head>
+      <title>Contact Roonicorn Designs</title>
+      <meta name="description" content="Roonicorn Designs Contact Page" />
+    </Head>
       <article className={styles.main}>
       <PageTitle>
       {t1}

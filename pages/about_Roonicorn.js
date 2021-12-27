@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Link from 'next/link'
 import PageTitle from '/components/title'
 import StarField from '/components/star_field'
@@ -24,6 +25,10 @@ export default function Riss(){
 
   return(
     <main className={styles.main}>
+    <Head>
+      <title> About Roonicorn Designs</title>
+      <meta name="description" content="Roonicorn Designs About Page" />
+    </Head>
     <PageTitle>
     {t1}
     {t2}

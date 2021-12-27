@@ -38,6 +38,7 @@ export default function Gallery(){
       width={650}
       alt="oak watchbox from the side, featuring mable inlays at the corners"
       rel="preload"/>
+      <p>Custom oak watchbox, featuring maple felted interior, magnetic lid close, maple inlays at the corners, glass top, and fine brushed nickel hardware.</p>
       </div>
 
       <div>
@@ -47,6 +48,7 @@ export default function Gallery(){
       width={650}
       alt="Custom marble run made of oak, maple, and purple heart wood"
       rel="preload"/>
+      <p>Maple, oak, & purple heart wood marble run. Features dark gray metallic resin custom inlays</p>
       </div>
 
       <div>
@@ -56,6 +58,7 @@ export default function Gallery(){
       width={650}
       alt="rustic wood christmas tree sillouette decoration filled with fairy lights"
       rel="preload"/>
+      <p>Holliday tree decorative piece. Rustic dark stain finish, fairy lights for perfect lighting and charm.</p>
       </div>
 
       <div>
@@ -74,6 +77,7 @@ export default function Gallery(){
       width={650}
       alt="image of handmade wooden watchbox in walnut"
       rel="preload"/>
+      <p>Custom mahogany watchbox with maple felted interior, inlays, magnetic close and fine brass hardware.</p>
       </div>
 
       <div>
@@ -83,6 +87,7 @@ export default function Gallery(){
       width={650}
       alt="rustic snowmen holiday lanterns"
       rel="preload"/>
+      <p>Rostic holiday cutout lanterns, can be made with custom patterns and finishes.</p>
       </div>
 
       <div>
@@ -92,6 +97,7 @@ export default function Gallery(){
       width={650}
       alt="view of oak photframe corner, showing purpleheart wood inlays"
       rel="preload"/>
+      <p>Custom fit oak frame with purple heart inlay details.</p>
       </div>
       </section>
 

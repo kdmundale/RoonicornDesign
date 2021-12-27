@@ -309,6 +309,9 @@
   .footer {
     font-size: .75rem;
   }
+  .footer a{
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 700px) {

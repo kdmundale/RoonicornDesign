@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.roonicorndesigns.com/</loc>
+    <loc>http://www.roonicorndesigns.com</loc>
     <lastmod>2021-12-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://www.roonicorndesigns.com/projects</loc>
-    <lastmod>2021-12-26</lastmod>
+    <lastmod>2021-12-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://www.roonicorndesigns.com/contact</loc>
-    <lastmod>2021-12-26</lastmod>
+    <lastmod>2021-12-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>http://www.roonicorndesigns.com/about_Roonicorn</loc>
-    <lastmod>2021-12-26</lastmod>
+    <lastmod>2021-12-27</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.roonicorndesigns.com</loc>
+    <loc>http://www.roonicorndesigns.com/projects</loc>
     <image:image>
       <image:loc>https://www.roonicorndesigns.com/_next/image?url=%2Fimages%2Fwatchbox2.JPG&w=1920&q=75</image:loc>
       <image:caption>Custom oak watch-box, featuring maple felted interior, magnetic lid close, maple inlays at the corners, glass top, and fine brushed nickel hardware</image:caption>
       <image:geo_location>Lancaster, PA</image:geo_location>
       <image:title>Oak Watch-box</image:title>
-    </image:image>-
+    </image:image>
   </url>
   <url>
-    <loc>http://www.roonicorndesigns.com</loc>
+    <loc>http://www.roonicorndesigns.com/projects</loc>
     <image:image>
       <image:loc>https://www.roonicorndesigns.com/_next/image?url=%2Fimages%2Fmarble_run.png&w=1920&q=75</image:loc>
       <image:caption>Maple, oak, and purple heart wood marble run. Features dark gray metallic resin custom inlays</image:caption>
@@ -39,7 +39,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://www.roonicorndesigns.com</loc>
+    <loc>http://www.roonicorndesigns.com/projects</loc>
     <image:image>
       <image:loc>https://www.roonicorndesigns.com/_next/image?url=%2Fimages%2Ftree.png&w=1920&q=75</image:loc>
       <image:caption>Holliday tree decorative piece. Rustic dark stain finish, fairy lights for perfect lighting and charm</image:caption>
@@ -48,7 +48,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://www.roonicorndesigns.com</loc>
+    <loc>http://www.roonicorndesigns.com/projects</loc>
     <image:image>
       <image:loc>https://www.roonicorndesigns.com/_next/image?url=%2Fimages%2Fwatchbox3.jpg&w=1920&q=75</image:loc>
       <image:caption>Custom mahogany watch-box with maple felted interior, inlays, magnetic close and fine brass hardware.</image:caption>
@@ -57,7 +57,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://www.roonicorndesigns.com</loc>
+    <loc>http://www.roonicorndesigns.com/projects</loc>
     <image:image>
       <image:loc>https://www.roonicorndesigns.com/_next/image?url=%2Fimages%2Fsnowmen.JPG&w=1920&q=75</image:loc>
       <image:caption>Rustic holiday cutout lanterns, can be made with custom patterns and finishes.</image:caption>
@@ -66,7 +66,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://www.roonicorndesigns.com</loc>
+    <loc>http://www.roonicorndesigns.com/projects</loc>
     <image:image>
       <image:loc>https://www.roonicorndesigns.com/_next/image?url=%2Fimages%2Fworking.png&w=1920&q=75</image:loc>
       <image:caption>Closeup photo of tools and wood-glue on a workbench</image:caption>
@@ -75,7 +75,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://www.roonicorndesigns.com</loc>
+    <loc>http://www.roonicorndesigns.com/projects</loc>
     <image:image>
       <image:loc>http://www.roonicorndesigns.com/projects</image:loc>
       <image:caption>Custom fit oak wood picture frame with purple heart inlay details.</image:caption>

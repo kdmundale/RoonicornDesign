@@ -38,7 +38,7 @@ export default function Gallery(){
       width={650}
       alt="oak watch-box from the side, featuring mable inlays at the corners"
       rel="preload"/>
-      <p>Custom oak watch-box, featuring maple felted interior, magnetic lid close, maple inlays at the corners, glass top, and fine brushed nickel hardware.</p>
+      <p>Custom oak watch-box, featuring maple and black felt interior, magnetic lid close, maple inlays at the corners, glass top, and fine brushed nickel hardware</p>
       </div>
 
       <div>
@@ -48,7 +48,7 @@ export default function Gallery(){
       width={650}
       alt="Custom marble run made of oak, maple, and purple heart wood"
       rel="preload"/>
-      <p>Maple, oak, & purple heart wood marble run. Features dark gray metallic resin custom inlays</p>
+      <p>Maple, oak, and purple heart wood custom marble run, features dark gray metallic resin inlays</p>
       </div>
 
       <div>
@@ -58,7 +58,7 @@ export default function Gallery(){
       width={650}
       alt="rustic wood christmas tree sillouette decoration filled with fairy lights"
       rel="preload"/>
-      <p>Holliday tree decorative piece. Rustic dark stain finish, fairy lights for perfect lighting and charm.</p>
+      <p>Holliday tree decorative piece with rustic dark stain finish, fairy lights for perfect lighting and charm</p>
       </div>
 
       <div>
@@ -77,7 +77,7 @@ export default function Gallery(){
       width={650}
       alt="image of handmade wooden watch-box in walnut"
       rel="preload"/>
-      <p>Custom mahogany watch-box with maple felted interior, inlays, magnetic close and fine brass hardware.</p>
+      <p>Custom mahogany watch-box with maple and dark felt interior, inlays, magnetic close and fine brass hardware</p>
       </div>
 
       <div>
@@ -87,7 +87,7 @@ export default function Gallery(){
       width={650}
       alt="rustic snowmen holiday lanterns"
       rel="preload"/>
-      <p>Rustic holiday wooden snowman cutout lanterns, can be done with custom patterns and many finishes.</p>
+      <p>Rustic holiday wooden snowman cutout lanterns, can be done with custom patterns and finishes</p>
       </div>
 
       <div>
@@ -97,7 +97,7 @@ export default function Gallery(){
       width={650}
       alt="view of oak photframe corner, showing purpleheart wood inlays"
       rel="preload"/>
-      <p>Custom fit oak frame with purple heart inlay details.</p>
+      <p>Custom fit oak picture frame with purple heart inlay details at joints</p>
       </div>
       </section>
 

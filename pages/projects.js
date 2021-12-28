@@ -36,9 +36,9 @@ export default function Gallery(){
       layout='intrinsic'
       height={650}
       width={650}
-      alt="oak watchbox from the side, featuring mable inlays at the corners"
+      alt="oak watch-box from the side, featuring mable inlays at the corners"
       rel="preload"/>
-      <p>Custom oak watchbox, featuring maple felted interior, magnetic lid close, maple inlays at the corners, glass top, and fine brushed nickel hardware.</p>
+      <p>Custom oak watch-box, featuring maple felted interior, magnetic lid close, maple inlays at the corners, glass top, and fine brushed nickel hardware.</p>
       </div>
 
       <div>
@@ -75,9 +75,9 @@ export default function Gallery(){
       layout='intrinsic'
       height={500}
       width={650}
-      alt="image of handmade wooden watchbox in walnut"
+      alt="image of handmade wooden watch-box in walnut"
       rel="preload"/>
-      <p>Custom mahogany watchbox with maple felted interior, inlays, magnetic close and fine brass hardware.</p>
+      <p>Custom mahogany watch-box with maple felted interior, inlays, magnetic close and fine brass hardware.</p>
       </div>
 
       <div>
@@ -87,7 +87,7 @@ export default function Gallery(){
       width={650}
       alt="rustic snowmen holiday lanterns"
       rel="preload"/>
-      <p>Rostic holiday cutout lanterns, can be made with custom patterns and finishes.</p>
+      <p>Rustic holiday wooden snowman cutout lanterns, can be done with custom patterns and many finishes.</p>
       </div>
 
       <div>

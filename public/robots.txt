@@ -20,4 +20,58 @@
     <lastmod>2021-12-26</lastmod>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>http://www.roonicorndesigns.com</loc>
+    <image:image>
+      <image:loc>http://www.roonicorndesigns.com/projects</image:loc>
+      <image:caption>Custom oak watch-box, featuring maple felted interior, magnetic lid close, maple inlays at the corners, glass top, and fine brushed nickel hardware</image:caption>
+      <image:geo_location>Lancaster, PA</image:geo_location>
+      <image:title>Oak Watch-box</image:title>
+    </image:image>-
+  </url>
+  <url>
+    <loc>http://www.roonicorndesigns.com</loc>
+    <image:image>
+      <image:loc>http://www.roonicorndesigns.com/projects</image:loc>
+      <image:caption>Maple, oak, & purple heart wood marble run. Features dark gray metallic resin custom inlays</image:caption>
+      <image:geo_location>Lancaster, PA</image:geo_location>
+      <image:title>Custom Wood Marble-run</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.roonicorndesigns.com</loc>
+    <image:image>
+      <image:loc>http://www.roonicorndesigns.com/projects</image:loc>
+      <image:caption>Holliday tree decorative piece. Rustic dark stain finish, fairy lights for perfect lighting and charm</image:caption>
+      <image:geo_location>Lancaster, PA</image:geo_location>
+      <image:title>Wooden holiday tree with fairy lights</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.roonicorndesigns.com</loc>
+    <image:image>
+      <image:loc>http://www.roonicorndesigns.com/projects</image:loc>
+      <image:caption>Custom mahogany watch-box with maple felted interior, inlays, magnetic close and fine brass hardware.</image:caption>
+      <image:geo_location>Lancaster, PA</image:geo_location>
+      <image:title>Custom wood mahogany watch-box</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.roonicorndesigns.com</loc>
+    <image:image>
+      <image:loc>http://www.roonicorndesigns.com/projects</image:loc>
+      <image:caption>Rustic holiday cutout lanterns, can be made with custom patterns and finishes.</image:caption>
+      <image:geo_location>Lancaster, PA</image:geo_location>
+      <image:title>Custom wood rustic country snowman lanterns</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://www.roonicorndesigns.com</loc>
+    <image:image>
+      <image:loc>http://www.roonicorndesigns.com/projects</image:loc>
+      <image:caption>Custom fit oak wood picture frame with purple heart inlay details.</image:caption>
+      <image:geo_location>Lancaster, PA</image:geo_location>
+      <image:title>Custom wood picture frame</image:title>
+    </image:image>
+  </url>
 </urlset>

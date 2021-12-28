@@ -21,7 +21,7 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://www.roonicorndesigns.com/projects</loc>
+    <!-- <loc>http://www.roonicorndesigns.com/projects</loc>
     <image:image>
       <image:loc>https://www.roonicorndesigns.com/_next/image?url=%2Fimages%2Fwatchbox2.JPG&w=1920&q=75</image:loc>
       <image:caption>Custom oak watch-box, featuring maple felted interior, magnetic lid close, maple inlays at the corners, glass top, and fine brushed nickel hardware</image:caption>
@@ -82,5 +82,5 @@
       <image:geo_location>Lancaster, PA</image:geo_location>
       <image:title>Custom wood picture frame</image:title>
     </image:image>
-  </url>
+  </url> -->
 </urlset>
